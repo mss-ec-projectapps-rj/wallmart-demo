@@ -1,0 +1,12 @@
+i
+https://www.blogger.com/blog/post/edit/3523878295166464856/2420919396487179066
+ind . -name "*" -ls |awk '{print $7 "    " $11}'| du -ah| sort -nr
+
+
+$ curl -u 'raghavan16' https://api.github.com/user/repos -d '{"name":"command-repo"}'
+
+https://github.com/mss-ec-projectapps-rj
+
+curl -H 'Authorization: token MY_ACCESS_TOKEN' https://api.github.com/user/repos -d '{"name":"REPO", "private":"true"}' - Create PAT
+
+curl -u 'nyeates' https://api.github.com/user/repos -d '{"name":"projectname","description":"This project is a test"}'

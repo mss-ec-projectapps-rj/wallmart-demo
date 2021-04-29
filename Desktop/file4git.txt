@@ -1,0 +1,85 @@
+ilikeMSD@7
+raghavraju516@gmail.com
+Formula1@2021
+@ ? 
+#
+#
+~/Desktop
+~linux
+@@!#$%^||
+@34.207.92.130
+ssh ec2-user@3.26.41.182
+
+ec2-user@34.207.92.130
+
+
+*/1 * * * * /home/ec2-user/hello.sh> /home/ec2-user/hello.log 2>>&1
+x
+https://mirrors.estointernet.in/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.zip
+#!/bin/bash
+echo 'today date'  `date`
+
+"
+2
+
+File Name:
+-----------
+
+vi cleanup.sh
+
+#/bin/bash
+
+echo "Searching all the files which are created/modified last 7 days back"
+
+find /export -type f  -mtime +7 -exec rm {} \;
+
+if [ $? -eq 0]
+then
+echo "Deleted all the files which are created/modiflied in last 7 days back in $PWD directory"
+else
+echo "No files to delete"
+fi
+|\|
+
+
+crontab format
+--------------
+0/30      /pathtofile/cleanup.sh > /dev/null 2>&1
+
+
+find -h ./dir1 -name "*" -ls | xargs du -h | awk '{print $7 " " $11}'| sort -rn
+
+find -h ./dir1 -name "*" -ls | xargs du -sh | awk '{print $7 " " $11}'| sort -rn
+
+find ./dir1/ -name "*" -ls | xargs du -h | awk '{print $7 " " $11}'| sort -rn ---works
+
+
+ find ./dir1/ -name "*" -ls | xargs du -sh | awk '{print $7 " " $11}'| sort -rn  - works
+
+find ./dir1/ -name "*" |awk '{print $7 " " $11}'| sort -rn| xargs du -ha|
+echo "first arg value" $1
+echo "second Arg value:" $2
+echo "third arg Value" $3
+echo "number of arguments" $#
+echo "ALL arguments " $*
+echo " display string arguments" $@
+echo "process id:" $$
+echo "previous command status:" $?
+
+
+
+find . -name "*" -ls |awk '{print $7 "    " $11}'| du -ah| sort -nr 
+
+
+$ curl -u 'raghavan16' https://api.github.com/user/repos -d '{"name":"command-repo"}'
+
+https://github.com/mss-ec-projectapps-rj
+
+curl -H 'Authorization: token MY_ACCESS_TOKEN' https://api.github.com/user/repos -d '{"name":"REPO", "private":"true"}' - Create PAT
+
+curl -u 'nyeates' https://api.github.com/user/repos -d '{"name":"projectname","description":"This project is a test"}'
+
+
+
+
+
